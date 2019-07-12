@@ -1,0 +1,37 @@
+{
+    "name": "ssh-ed25519-bip39",
+    "version": "0.1.0",
+    "description": "Backup/restore ed25519 ssh key using BIP39",
+    "bin": {
+        "ssh-ed25519-bip39": "./cli.js"
+    },
+    "main": "./cli.js",
+    "scripts": {
+        "test": "node node_modules/mocha/bin/mocha",
+        "lint": "jshint cli.js lib/rl.js test/test.js"
+    },
+    "files": [
+        "cli.js",
+        "lib/rl.js"
+    ],
+    "keywords": [
+        "ssh",
+        "ed25519",
+        "bip39"
+    ],
+    "author": "Vadim Kolontsov <vadim@kolontsov.com>",
+    "license": "MIT",
+    "repository": "github:kolontsov/ssh-ed25519-bip39",
+    "bugs": {
+        "url": "git://github.com/kolontsov/ssh-ed25519-bip39/issues"
+    },
+    "devDependencies": {
+        "mocha": "^6.1.4"
+    },
+    "dependencies": {
+        "bip39": "^3.0.2",
+        "command-line-args": "^5.1.1",
+        "sshpk": "^1.16.1",
+        "tweetnacl": "^1.0.1"
+    }
+}
