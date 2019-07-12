@@ -1,6 +1,6 @@
 {
     "name": "ssh-ed25519-bip39",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Backup/restore ed25519 ssh key using BIP39",
     "bin": {
         "ssh-ed25519-bip39": "./cli.js"
