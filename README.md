@@ -1,5 +1,7 @@
 # ssh-ed25519-bip39
 
+[![Build Status](https://travis-ci.org/kolontsov/ssh-ed25519-bip39.svg?branch=master)](https://travis-ci.org/kolontsov/ssh-ed25519-bip39)
+
 This command-line tool allows to backup Ed25519 ssh key as 24 english words (using BIP39 specification).
 
 Obvious note: keeping these words in plain sight is insecure, because they are not protected by the password (see TODO).
